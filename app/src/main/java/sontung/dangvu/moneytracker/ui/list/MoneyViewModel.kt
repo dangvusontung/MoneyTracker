@@ -5,7 +5,8 @@ import sontung.dangvu.moneytracker.db.moneytransaction.MoneyRepository
 import javax.inject.Inject
 
 class MoneyViewModel @Inject constructor(
-//    private val repository: MoneyRepository
+    private val repository: MoneyRepository
 ) : ViewModel() {
+
 
 }

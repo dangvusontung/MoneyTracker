@@ -4,7 +4,6 @@ import android.app.Application
 import dagger.BindsInstance
 import dagger.Component
 import dagger.android.AndroidInjector
-import dagger.android.support.AndroidSupportInjection
 import dagger.android.support.AndroidSupportInjectionModule
 import sontung.dangvu.moneytracker.BaseApplication
 import javax.inject.Singleton
@@ -14,7 +13,8 @@ import javax.inject.Singleton
     modules = [
         AndroidSupportInjectionModule::class,
         ViewModelFactoryModule::class,
-        UiBuilderModule::class
+        UiBuilderModule::class,
+        AppModule::class
     ]
 )
 interface AppComponent : AndroidInjector<BaseApplication> {

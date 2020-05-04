@@ -1,17 +1,20 @@
 package sontung.dangvu.moneytracker
 
 import android.os.Bundle
-import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.Button
+import androidx.fragment.app.Fragment
 import androidx.navigation.fragment.findNavController
+import dagger.android.support.DaggerFragment
 
 /**
  * A simple [Fragment] subclass as the second destination in the navigation.
  */
-class SecondFragment : Fragment() {
+class DetailFragment : DaggerFragment() {
+
+
 
     override fun onCreateView(
             inflater: LayoutInflater, container: ViewGroup?,
