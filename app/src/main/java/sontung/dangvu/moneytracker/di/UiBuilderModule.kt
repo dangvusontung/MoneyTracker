@@ -15,5 +15,4 @@ abstract class UiBuilderModule {
     )
     abstract fun contributeMainActivity() : MainActivity
 
-
 }

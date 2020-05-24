@@ -7,7 +7,7 @@ import sontung.dangvu.moneytracker.db.moneytransaction.MoneyTransaction
 import sontung.dangvu.moneytracker.db.moneytransaction.MoneyTransactionDao
 import sontung.dangvu.moneytracker.db.typeconverter.Converters
 
-@Database(entities = [MoneyTransaction::class], version = 1, exportSchema = false)
+@Database(entities = [MoneyTransaction::class], version = 2, exportSchema = false)
 @TypeConverters(Converters::class)
 abstract class AppDatabase : RoomDatabase() {
     abstract fun moneyDao() : MoneyTransactionDao
