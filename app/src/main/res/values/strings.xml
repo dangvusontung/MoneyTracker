@@ -13,9 +13,11 @@
     <string name="title_plan">Plan</string>
     <string name="title_report">Report</string>
     <string name="title_list">List</string>
+    <string name="title_setting">Setting</string>
 
     <string name="list_fragment_label">List Fragment</string>
     <string name="report_fragment_label">Report Fragment</string>
     <string name="plan_fragment_label">Plan Fragment</string>
+    <string name="setting_fragment_label">Setting Fragment</string>
 
 </resources>

@@ -2,11 +2,10 @@ package sontung.dangvu.moneytracker.utils
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
-import java.lang.Exception
-import java.lang.RuntimeException
 import javax.inject.Inject
 import javax.inject.Provider
 
+@Suppress("UNCHECKED_CAST")
 class ViewModelFactory @Inject constructor (
     private val creators : Map<Class<out ViewModel>, @JvmSuppressWildcards Provider<ViewModel>>
 ) : ViewModelProvider.Factory{

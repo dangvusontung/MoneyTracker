@@ -20,4 +20,14 @@ class Converters {
         }
     }
 
+    @TypeConverter
+    fun fromLongToDate(stamp: Long): Date {
+        return Date(stamp)
+    }
+
+    @TypeConverter
+    fun fromDateToLong(date: Date): Long {
+        return date.time
+    }
+
 }
